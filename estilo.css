@@ -1,0 +1,67 @@
+/* .inicio {
+  
+} */
+
+body {
+    box-sizing: border-box;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.5em;
+
+    background-color: beige;
+
+}
+
+.corpo {
+    margin: 15px;
+    padding: 5px;
+}
+
+.texto {
+    line-height: 1.5em;
+}
+
+.exemplo {
+    margin: 15px;
+    padding: 5px;
+}
+
+.final {
+    margin: 15px;
+    padding: 5px;
+    
+}
+
+
+
+
+pre {
+    background-color: #2e2e2e;
+    color: #f8f8f2;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Consolas, monospace;
+    overflow: auto;
+    align-items: normal;
+}
+
+
+code {
+    color: #f8f8f2;
+}
+
+.selector {
+    color: #80c0e3;
+}
+
+.property {
+    color: #f1fa8c;
+}
+
+.value {
+    color: #ffb86c;
+}
+
+.punctuation {
+    color: #ffb86c;
+}

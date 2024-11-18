@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin</title>
+    <link rel="stylesheet" href="/CSS3/05 - margin/estilo.css">
+</head>
+
+<body>
+    <div class="inicio, texto">
+        <h3>O que é o Margin no CSS?</h3>
+        <p>
+            No CSS, o margin é uma propriedade utilizada para controlar o espaço externo ao redor de um elemento. Esse
+            "espaço" separa o elemento de outros à sua volta, sem alterar o seu conteúdo interno ou a sua borda (isso
+            seria responsabilidade do padding). O margin é, portanto, uma espécie de "área de respiro" entre o elemento
+            e os demais componentes da página, facilitando o layout e a legibilidade.
+        </p>
+    </div>
+
+    <div>
+        <h4>Como o Margin Funciona?</h4>
+
+        <p>
+            A propriedade margin pode ser definida de várias maneiras:
+        </p>
+        <div>
+            <h4>Especificação de Lados Individuais:</h4>
+            <ul>
+                <li>margin-top: Define a margem superior.</li>
+                <li>margin-right: Define a margem à direita.</li>
+                <li>margin-bottom: Define a margem inferior.</li>
+                <li>margin-left: Define a margem à esquerda.</li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <h4>Especificação de Lados Individuais:</h4>
+        <ul>
+            <li>margin-top: Define a margem superior.</li>
+            <li>margin-right: Define a margem à direita.</li>
+            <li>margin-bottom: Define a margem inferior.</li>
+            <li>margin-left: Define a margem à esquerda.</li>
+        </ul>
+    </div>
+    <div class="corpo">
+        <h4>Sintaxe Resumida (margin):</h4>
+        <p>
+            Margin aceita de um a quatro valores, que correspondem aos lados do elemento:
+        </p>
+        <ul>
+            <li>valor (margin: 10px;): aplica a mesma margem em todos os lados.</li>
+            <li>valores (margin: 10px 5px;): aplica o primeiro valor para as margens superior e inferior, e o segundo
+                para as margens esquerda e direita.</li>
+            <li>valores (margin: 10px 5px 15px;): aplica o primeiro valor para a margem superior, o segundo para
+                esquerda e direita, e o terceiro para a margem inferior.</li>
+            <li>valores (margin: 10px 5px 15px 20px;): aplica margens diferentes em cada lado, na ordem: superior,
+                direita, inferior e esquerda.
+            </li>
+        </ul>
+    </div>
+    <div>
+        <p> Valores Automáticos e Padrão:</p>
+        <ul>
+            <li>margin: auto: Esse valor é particularmente útil em layouts de centralização, principalmente para
+                elementos com largura fixa (como width: 50%). Ele faz com que o navegador distribua automaticamente o
+                espaço ao redor do elemento, centralizando-o horizontalmente.</li>
+            <li>margin: 0: Remove qualquer espaço em todos os lados do elemento.</li>
+        </ul>
+    </div>
+    <div class="exemplo">
+        <p>Unidades de Medida:</p>
+        <ul>
+            <li>O margin pode ser especificado em pixels (px), porcentagens (%), em, rem, entre outras unidades.</li>
+        </ul>
+    
+        <h4>Exemplo Prático:</h4>
+        <div>
+            <pre>
+                <code>
+                    <span class="selector">.elemento {</span>
+                        <span class="property">margin</span>: <span class="value">20px</span><span class="punctuation">;</span>
+                    <span class="selector">}</span>
+                </code>
+            </pre>
+        </div>
+    
+        <p>Ou, para centralizar um elemento com largura fixa:</p>
+    
+        <div>
+            <pre>
+                <code>
+                    <span class="selector">.elemento {</span>
+                        <span class="property">width</span>: <span class="value">50%</span><span class="punctuation">;</span>
+                        <span class="property">margin</span>: <span class="value">0</span><span class="punctuation">;</span>
+                    <span class="selector">}</span>
+                </code>
+            </pre>
+        </div>
+    </div>
+    
+    <div class="final">
+        <h4>Resumo:</h4>
+        <p>
+            A propriedade margin no CSS é essencial para controlar o espaçamento externo entre elementos e criar layouts
+            visualmente organizados. Ao dominar o margin, é possível alinhar, centralizar e distribuir os elementos na
+            página de maneira prática e eficaz.
+        </p>
+    </div>
+</body>
+</html>    
